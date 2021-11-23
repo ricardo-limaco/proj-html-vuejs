@@ -1,7 +1,21 @@
 <template>
-  <div>
-    
-  </div>
+  <main>
+
+    <section class="_section-text _p-medium">
+      <div class="container text-center">
+        <h5>AVADA FORUM IS THE PLACE TO BE</h5>
+        <p>In quis lectus sed leo elementum faucibus in dapibum. <br>
+          Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. <br>
+          dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.
+        </p>
+      </div>
+    </section>
+
+    <section class="_p-medium">
+
+    </section>
+
+  </main>
 </template>
 
 <script>
@@ -9,6 +23,7 @@ export default {
   name: 'Main',
   data(){
     return{
+      /*
       articleTop: [
         { 
           img: require(""),
@@ -29,6 +44,7 @@ export default {
           text: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
           },
       ],
+      */
     }
   },
 }

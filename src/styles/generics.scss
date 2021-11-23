@@ -1,0 +1,60 @@
+@import "./variables";
+
+*{
+  font-family: "Roboto";
+}
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
+///////////////////////////////////////////////////////////
+///// Padding /////
+._p-small {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+._p-medium {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+._p-large {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+
+///// Button /////
+._btn-small {
+  display: inline-block;
+  color: white;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+._btn-medium {
+  display: inline-block;
+  color: white;
+  padding: 14px 32px;
+  font-weight: 600;
+  font-size: 15px;
+}
+._btn-large {
+  display: inline-block;
+  color: white;
+  padding: 0 125px;
+}
+._btn-blue {
+  background-color: $color-blue;
+}
+._btn-black {
+  background-color: $color-dark;
+}

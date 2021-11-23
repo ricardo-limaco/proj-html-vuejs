@@ -1,0 +1,47 @@
+@import "./variables";
+
+
+nav{
+  background-color: $color-blue;
+
+  ._nav-logo{
+    height: 60px;
+  }
+
+  ._nav-link {
+    display: inline-block;
+    padding: 35px 25px;
+    color: white;
+    font-size: 15px;
+  }
+
+  ._nav-search {
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+._hero{
+  padding-top: 300px;
+  padding-bottom: 280px;
+  color: white;
+  background-image: url("./assets/home_slider_bg.jpg");
+
+    h1 {
+      font-weight: 700;
+      font-size: 140px;
+      padding-bottom: 25px;
+    }
+  
+    h4 {
+      font-size: 25px;
+      font-weight: 400;
+      padding-bottom: 35px;
+    }
+}
