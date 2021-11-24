@@ -23,7 +23,7 @@
       <div class="container">
         <h1>Tech Forum!</h1>
         <h4>Discuss all the latest technology news and trends</h4>
-        <a href="#" class="_btn-medium _btn-blue">GET AVADA NOW! <span><i class="fa fa-arrow-right ps-2" aria-hidden="true"></i></span></a>
+        <a href="#" class="_btn-medium _btn-blue">GET AVADA NOW! <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
       </div>
     </section>
 
